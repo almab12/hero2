@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+//import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
 @Component({
   selector: 'app-root',
+  styleUrls: ['./app.component.css'],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Tour of Heroes';
+
+  //constructor(af: AngularFire) {}
 }
